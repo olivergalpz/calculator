@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./JS/main.js"></script>
+    <title>Strings JS</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        background-color: gray;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 32px;
+        gap: 8px 0;
+        margin: 0 auto;
+    }
+
+    .pantalla {
+        background-color: white;
+        border: none;
+        outline: none;
+        height: 36px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size: 30px;
+        padding: 15px;
+    }
+
+    .buttons_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons_container1 > button {
+        margin-left: 7px;
+        background-color: black;
+        color: white;
+    }
+
+    button {
+        padding: 4px 8px;
+        font-weight: bold;
+        width: 100px;
+        height: 70px;
+        margin: 3px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="pantalla">0</div>
+        <div class="buttons_container">
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button id="AC" class="btn">AC</button>
+        </div>
+        <div class="buttons_container">
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button id="borrar" class="btn">←</button>
+        </div>
+        <div class="buttons_container">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">/</button>
+        </div>
+        <div class="buttons_container">
+            <button class="btn">-</button>
+            <button id="cero" class="btn">0</button>
+            <button class="btn">+</button>
+            <button class="btn">*</button>
+        </div>
+        <div class="buttons_container1">
+            <button id="igual" class="btn">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
